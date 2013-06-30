@@ -3,12 +3,12 @@
    version = "1.0">
    <Group
       location = "container:"
-      name = "CLPageControl">
+      name = "CLBPageControl">
       <FileRef
-         location = "group:CLPageControl.h">
+         location = "group:CLBPageControl.h">
       </FileRef>
       <FileRef
-         location = "group:CLPageControl.m">
+         location = "group:CLBPageControl.m">
       </FileRef>
    </Group>
 </Workspace>

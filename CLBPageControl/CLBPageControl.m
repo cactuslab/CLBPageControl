@@ -1,20 +1,20 @@
 //
-//  CLPageControl.m
+//  CLBPageControl.m
 //  PageControlTestApp
 //
 //  Created by Christian Sheehan on 28/06/13.
 //  Copyright (c) 2013 Cactuslab. All rights reserved.
 //
 
-#import "CLPageControl.h"
+#import "CLBPageControl.h"
 
-@interface CLPageControl()
+@interface CLBPageControl()
 
 @property (strong, nonatomic) NSMutableArray *dots;
 
 @end
 
-@implementation CLPageControl
+@implementation CLBPageControl
 
 - (id)init
 {

@@ -1,5 +1,5 @@
 //
-//  CLPageControl.h
+//  CLBPageControl.h
 //  PageControlTestApp
 //
 //  Created by Christian Sheehan on 28/06/13.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CLPageControl : UIControl
+@interface CLBPageControl : UIControl
 
 @property (assign, nonatomic) NSInteger currentPage;
 @property (assign, nonatomic) NSInteger numberOfPages;
