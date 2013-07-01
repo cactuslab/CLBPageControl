@@ -47,9 +47,12 @@
     self.currentPage = 0;
     
     [UIView setAnimationDelegate:self];
-    
-    self.dotImage = [UIImage imageNamed:@"clb-dot.png"];
-    self.dotImageHighlighted = [UIImage imageNamed:@"clb-dot-on.png"];
+    if (self.dotImage == nil) {
+        self.dotImage = [UIImage imageNamed:@"clb-dot.png"];
+    }
+    if (self.dotImageHighlighted == nil) {
+        self.dotImageHighlighted = [UIImage imageNamed:@"clb-dot-on.png"];
+    }
 }
 
 - (void)setCurrentPage:(NSInteger)currentPage
