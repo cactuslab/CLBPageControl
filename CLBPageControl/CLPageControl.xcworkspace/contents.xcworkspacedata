@@ -10,5 +10,21 @@
       <FileRef
          location = "group:CLBPageControl.m">
       </FileRef>
+      <Group
+         location = "group:Images"
+         name = "Images">
+         <FileRef
+            location = "group:clb-dot-on.png">
+         </FileRef>
+         <FileRef
+            location = "group:clb-dot-on@2x.png">
+         </FileRef>
+         <FileRef
+            location = "group:clb-dot.png">
+         </FileRef>
+         <FileRef
+            location = "group:clb-dot@2x.png">
+         </FileRef>
+      </Group>
    </Group>
 </Workspace>

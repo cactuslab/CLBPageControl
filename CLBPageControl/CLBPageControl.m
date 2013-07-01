@@ -48,8 +48,8 @@
     
     [UIView setAnimationDelegate:self];
     
-    self.dotImage = [UIImage imageNamed:@"dot.png"];
-    self.dotImageHighlighted = [UIImage imageNamed:@"dot-on.png"];
+    self.dotImage = [UIImage imageNamed:@"clb-dot.png"];
+    self.dotImageHighlighted = [UIImage imageNamed:@"clb-dot-on.png"];
 }
 
 - (void)setCurrentPage:(NSInteger)currentPage
