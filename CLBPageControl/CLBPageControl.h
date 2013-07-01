@@ -12,7 +12,7 @@
 
 @property (assign, nonatomic) NSInteger currentPage;
 @property (assign, nonatomic) NSInteger numberOfPages;
-@property (assign, nonatomic) CGFloat dotWidth; /* Including any spacing on left/right of dot */
+@property (assign, nonatomic) CGFloat dotWidth; /* This should be the width of the dot image + left and right padding */
 @property (strong, nonatomic) UIImage *dotImage;
 @property (strong, nonatomic) UIImage *dotImageHighlighted;
 
