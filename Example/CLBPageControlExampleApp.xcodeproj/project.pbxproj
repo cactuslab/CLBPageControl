@@ -23,6 +23,10 @@
 		D0D3F67017812667007F238D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D3F66D17812667007F238D /* Default@2x.png */; };
 		D0D3F6731781266D007F238D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D3F6711781266D007F238D /* Default-568h@2x.png */; };
 		D0D3F6791781291F007F238D /* CLBPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D3F6781781291F007F238D /* CLBPageControl.m */; };
+		D0D3F67F17814AC3007F238D /* clb-dot-on.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D3F67B17814AC3007F238D /* clb-dot-on.png */; };
+		D0D3F68017814AC3007F238D /* clb-dot-on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D3F67C17814AC3007F238D /* clb-dot-on@2x.png */; };
+		D0D3F68117814AC3007F238D /* clb-dot.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D3F67D17814AC3007F238D /* clb-dot.png */; };
+		D0D3F68217814AC3007F238D /* clb-dot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D3F67E17814AC3007F238D /* clb-dot@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +52,10 @@
 		D0D3F6721781266D007F238D /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D0D3F6771781291F007F238D /* CLBPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLBPageControl.h; path = ../CLBPageControl/CLBPageControl.h; sourceTree = "<group>"; };
 		D0D3F6781781291F007F238D /* CLBPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLBPageControl.m; path = ../CLBPageControl/CLBPageControl.m; sourceTree = "<group>"; };
+		D0D3F67B17814AC3007F238D /* clb-dot-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clb-dot-on.png"; sourceTree = "<group>"; };
+		D0D3F67C17814AC3007F238D /* clb-dot-on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clb-dot-on@2x.png"; sourceTree = "<group>"; };
+		D0D3F67D17814AC3007F238D /* clb-dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clb-dot.png"; sourceTree = "<group>"; };
+		D0D3F67E17814AC3007F238D /* clb-dot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clb-dot@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,8 +153,21 @@
 			children = (
 				D0D3F6771781291F007F238D /* CLBPageControl.h */,
 				D0D3F6781781291F007F238D /* CLBPageControl.m */,
+				D0D3F67A17814AC3007F238D /* Images */,
 			);
 			name = Vendor;
+			sourceTree = "<group>";
+		};
+		D0D3F67A17814AC3007F238D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D0D3F67B17814AC3007F238D /* clb-dot-on.png */,
+				D0D3F67C17814AC3007F238D /* clb-dot-on@2x.png */,
+				D0D3F67D17814AC3007F238D /* clb-dot.png */,
+				D0D3F67E17814AC3007F238D /* clb-dot@2x.png */,
+			);
+			name = Images;
+			path = ../CLBPageControl/Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +231,10 @@
 				D0D3F66F17812667007F238D /* Default.png in Resources */,
 				D0D3F67017812667007F238D /* Default@2x.png in Resources */,
 				D0D3F6731781266D007F238D /* Default-568h@2x.png in Resources */,
+				D0D3F67F17814AC3007F238D /* clb-dot-on.png in Resources */,
+				D0D3F68017814AC3007F238D /* clb-dot-on@2x.png in Resources */,
+				D0D3F68117814AC3007F238D /* clb-dot.png in Resources */,
+				D0D3F68217814AC3007F238D /* clb-dot@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

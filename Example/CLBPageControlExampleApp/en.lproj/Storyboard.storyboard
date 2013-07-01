@@ -68,6 +68,9 @@
                                 <rect key="frame" x="10" y="366" width="300" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.45407712459999999" green="0.59976881380000002" blue="0.56600671579999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="clPageControlValueChanged:" destination="hwD-Q0-X9i" eventType="valueChanged" id="FYn-yN-H4s"/>
+                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
