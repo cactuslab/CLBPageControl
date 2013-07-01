@@ -27,6 +27,8 @@
 		D0D3F68017814AC3007F238D /* clb-dot-on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D3F67C17814AC3007F238D /* clb-dot-on@2x.png */; };
 		D0D3F68117814AC3007F238D /* clb-dot.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D3F67D17814AC3007F238D /* clb-dot.png */; };
 		D0D3F68217814AC3007F238D /* clb-dot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D3F67E17814AC3007F238D /* clb-dot@2x.png */; };
+		D0D3F6841782287C007F238D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D3F6831782287C007F238D /* icon.png */; };
+		D0D3F6861782287E007F238D /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D3F6851782287E007F238D /* icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		D0D3F67C17814AC3007F238D /* clb-dot-on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clb-dot-on@2x.png"; sourceTree = "<group>"; };
 		D0D3F67D17814AC3007F238D /* clb-dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clb-dot.png"; sourceTree = "<group>"; };
 		D0D3F67E17814AC3007F238D /* clb-dot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clb-dot@2x.png"; sourceTree = "<group>"; };
+		D0D3F6831782287C007F238D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		D0D3F6851782287E007F238D /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 		D0392CA7177CFC840031EA26 = {
 			isa = PBXGroup;
 			children = (
+				D0D3F6851782287E007F238D /* icon@2x.png */,
+				D0D3F6831782287C007F238D /* icon.png */,
 				D0392D361781229D0031EA26 /* CLBPageControlExampleApp */,
 				D0D3F676178128FB007F238D /* Vendor */,
 				D0392D241781228B0031EA26 /* Supporting Files */,
@@ -235,6 +241,8 @@
 				D0D3F68017814AC3007F238D /* clb-dot-on@2x.png in Resources */,
 				D0D3F68117814AC3007F238D /* clb-dot.png in Resources */,
 				D0D3F68217814AC3007F238D /* clb-dot@2x.png in Resources */,
+				D0D3F6841782287C007F238D /* icon.png in Resources */,
+				D0D3F6861782287E007F238D /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
